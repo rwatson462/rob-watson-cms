@@ -1,6 +1,8 @@
 # rob-watson-cms
 CMS for my website at http://rob-watson.uk.
-Designed to run on a different server (a Docker container on localhost) to manage.
+Designed to run on a different server (a Docker container on localhost) to the
+main website for security purposes.  It will output template files and populate
+databases to service the main website.
 
 ## Goals:
 1. Specific
@@ -18,4 +20,8 @@ Designed to run on a different server (a Docker container on localhost) to manag
 
 ## Todo:
 
-Build this
+1. Scope this out properly
+2. Allow creating of Articles
+3. Allow creating of Categories
+5. Create template compiler
+4. Create deployment scripts
