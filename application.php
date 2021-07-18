@@ -11,9 +11,10 @@ include __DIR__ . '/config.php';
 // include database class and fetch an instance
 include __DIR__ . '/vendor/SourcePot/Database/Database.php';
 use SourcePot\Database\Database;
-$db = Database::pool(
+Database::pool(
    username: DB_USER,
    password: DB_PASS,
    host:     DB_HOST,
-   dbname:   DB_NAME
+   dbname:   DB_NAME,
+   pool_name: 'cms'
 );
