@@ -21,7 +21,9 @@ databases to service the main website.
 ## Todo:
 
 1. Scope this out properly
-2. Allow creating of Articles
-3. Allow creating of Categories
-5. Create template compiler
-4. Create deployment scripts
+2. Define data format that stores both table definitions AND HTML forms
+3. Create interface for managing those data files
+4. Create setup file to create database tables based on data files
+5. Create page that displays form based on data files
+6. Create template compiler
+7. Create deployment scripts

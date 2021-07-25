@@ -1,0 +1,36 @@
+[
+   {
+      "name": "article",
+      "fields": {
+         "date_created": {
+            "type": "datetime",
+            "protected": true
+         },
+         "date_updated": {
+            "type": "datetime",
+            "protected": true
+         },
+         "date_published": {
+            "type": "datetime",
+            "default": null,
+            "readonly": true
+         },
+         "author": {
+            "type": "string",
+            "length": "20",
+            "default": ""
+         },
+         "title": {
+            "type": "string",
+            "length": "20"
+         },
+         "content": {
+            "type": "text"
+         },
+         "slug": {
+            "type": "string",
+            "readonly": true
+         }
+      }
+   }
+]
